@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jamessergeant/Documents/GitHub/OSCW-3/main.c
+stdio.h
+-
+unistd.h
+-
+dirent.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+string.h
+-
+
